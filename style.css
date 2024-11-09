@@ -1,0 +1,66 @@
+.estrelasImg{
+  width: 200px;
+}
+
+#pFilter {
+  font-size: 1vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#botao {
+  background-color: #0D6EFD;
+  color: #fff;
+  border-color: #fff;
+}
+
+#botao:hover {
+  background-color: #EE2233;
+}
+
+#divSearch{
+  display: flex;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1080px) {
+
+  #secoes {
+    height: 8vh;
+  }
+
+  .anchors {
+    padding: 4vw;
+    text-decoration: none;
+    font-size: 4vw;
+    color: #f1f1f1;
+  }
+}
+
+#secoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ff0000;
+  border-radius: 20px;
+  text-align: center;
+  top: 0px;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  background: linear-gradient(
+    100deg,
+    #00D7DF,
+    #006DF0
+  );
+  box-shadow: 0 10px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.anchors {
+  padding: 1.4vw;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: #f1f1f1;
+}
